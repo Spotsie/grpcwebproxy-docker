@@ -6,7 +6,6 @@ RUN unzip grpcwebproxy*.zip
 
 RUN mv dist/grpcwebproxy* /usr/local/bin/grpcwebproxy
 
-
 RUN chmod +x /usr/local/bin/grpcwebproxy
 
 # Print the help message by default.
